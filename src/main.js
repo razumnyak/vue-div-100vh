@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Demo from './demo/Demo.vue'
-import div100vh from './div100vh'
+import Vue100vh from './vue100vh'
 
 Vue.config.productionTip = false
 
-Vue.use(div100vh)
+Vue.use(Vue100vh)
 
-Vue.component('div100vh', div100vh)
+Vue.component('Vue100vh', Vue100vh)
 
 new Vue({
   render: h => h(Demo),

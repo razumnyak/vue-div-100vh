@@ -1,12 +1,12 @@
 <template>
-  <div :style=objectStyle data-div100vh>
+  <div :style=objectStyle data-vue100vh>
     <slot></slot>
   </div>
 </template>
 <script>
 import convertStyle from './convertStyle/convertStyle'
 export default {
-  name: 'div100vh',
+  name: 'vue100vh',
   props:['css'],
   data () {
     return {
@@ -23,7 +23,6 @@ export default {
   methods:{
     updateStyle () {
       const convertedStyle = convertStyle(this.css, this.getWindowHeight());
-      console.log(convertedStyle)
       this.objectStyle = convertedStyle;
     },
     getWindowHeight(){

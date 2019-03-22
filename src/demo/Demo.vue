@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div100vh :css="{background: 'pink',display: 'flex',flexDirection: 'column',height: '100rvh'}">
+    <vue100vh :css="{background: 'pink',display: 'flex',flexDirection: 'column',height: '100rvh'}">
       <div style="flex: 'auto'; padding: '1rem';">
-        <h1>The Div100vh component demo</h1>
+        <h1>The Vue100vh component demo</h1>
         <p>
-          Div100vh component tries to avoid cropping of the bottom of the
+          Vue100vh component tries to avoid cropping of the bottom of the
           fullscreen splash page by mobile browsers.
         </p>
         <p>
@@ -15,13 +15,13 @@
         Chances are this part will be cropped by mobile browsers if you use a
         regular 100vh div wrapper.
       </div>
-    </div100vh>
-    <div100vh :css="{background: 'purple',display: 'flex',flexDirection: 'column',height: '75rvh'}">
+    </vue100vh>
+    <vue100vh :css="{background: '#8e9c25',display: 'flex',flexDirection: 'column',height: '75rvh'}">
       Something else goes here after the full window height div.
-    </div100vh>
-    <div100vh :css="{background: 'orange',display: 'flex',flexDirection: 'column',height: '25rvh'}">
+    </vue100vh>
+    <vue100vh :css="{background: 'orange',display: 'flex',flexDirection: 'column',height: '25rvh'}">
       Something else goes here after the full window height div.
-    </div100vh>
+    </vue100vh>
   </div>
 </template>
 

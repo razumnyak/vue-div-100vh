@@ -1,5 +1,6 @@
 {
   "name": "vue-div-100vh",
+  "description": "A Vue component, which solves the 100vh problem in mobile browsers, fork from React component",
   "version": "0.1.0",
   "private": true,
   "author": "Vladimir Razumnyak <razumnyak.v@gmail.com>",

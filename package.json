@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": false,
   "author": "Vladimir Razumnyak <razumnyak.v@gmail.com>",
-  "main": "src/div100vh/index.js",
+  "main": "src/vue100vh/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:razumnyak/vue-div-100vh.git"

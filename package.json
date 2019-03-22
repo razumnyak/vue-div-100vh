@@ -1,8 +1,7 @@
 {
   "name": "vue-100vh",
   "description": "A Vue component, which solves the 100vh problem in mobile browsers, fork from React component",
-  "version": "0.1.0",
-  "private": false,
+  "version": "0.1.1",
   "author": "Vladimir Razumnyak <razumnyak.v@gmail.com>",
   "main": "src/vue100vh/index.js",
   "repository": {

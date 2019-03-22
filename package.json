@@ -1,15 +1,22 @@
 {
-  "name": "windowHeight",
+  "name": "vue-div-100vh",
   "version": "0.1.0",
   "private": true,
+  "author": "Vladimir Razumnyak <razumnyak.v@gmail.com>",
   "main": "src/div100vh/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:razumnyak/vue-div-100vh.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "peerDependencies": {
+    "vue": ">2.6"
+  },
   "dependencies": {
-    "jest-get-type": "^22.4.3",
-    "vue": "^2.6.6"
+    "jest-get-type": "^22.4.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

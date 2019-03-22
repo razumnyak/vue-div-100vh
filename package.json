@@ -1,12 +1,14 @@
 {
-  "name": "vue-div-100vh",
+  "name": "windowHeight",
   "version": "0.1.0",
   "private": true,
+  "main": "src/div100vh/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "jest-get-type": "^22.4.3",
     "vue": "^2.6.6"
   },
   "devDependencies": {
